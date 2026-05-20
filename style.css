@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0f19;
+  color: white;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  color: #00ffe7;
+  padding: 10px;
+}
+
+.post-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background: #00ffe7;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.post {
+  background: #1a2233;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.like {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dislike {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
